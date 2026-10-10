@@ -1,0 +1,56 @@
+================================================================
+  PROPIEDADES EDÁFICAS - Resultados de laboratorio de suelos
+================================================================
+Cargando y limpiando datos (puede tardar unos segundos)...
+Listo: 46,745 registros cargados.
+
+Departamento (? para ver opciones): Risaralada
+  [x] 'Risaralada' no existe en los datos.
+    ¿Quisiste decir? RISARALDA
+Departamento (? para ver opciones): 
+  [!] No puede estar vacío. Escribe '?' para ver opciones.
+Departamento (? para ver opciones): risaralda
+Municipio (? para ver opciones): pereira
+Cultivo (? para ver opciones): ?
+
+  Opciones disponibles (8):
+   - Aguacate
+   - Cacao
+   - Maíz
+   - Papa Criolla
+   - Papaya
+   - Piña
+   - Plátano
+   - Sábila
+
+Cultivo (? para ver opciones): aguacate
+Número de registros a consultar: abc
+  [!] Escribe un número entero mayor que 0.
+Número de registros a consultar: 0
+  [!] Escribe un número entero mayor que 0.
+Número de registros a consultar: 5
+
++--------------+-----------+----------+------------+---+------------+-------------------+---------------------+
+| Departamento | Municipio | Cultivo  | Topografía | N | Mediana pH | Mediana P (mg/kg) | Mediana K (cmol/kg) |
++--------------+-----------+----------+------------+---+------------+-------------------+---------------------+
+| RISARALDA    | PEREIRA   | Aguacate | Ondulado   | 5 |       5.05 |              8.20 |                0.17 |
++--------------+-----------+----------+------------+---+------------+-------------------+---------------------+
+  N/D = sin datos válidos (valores '<límite de detección' o 'ND' no se promedian).
+
+¿Hacer otra consulta? (s/n): s
+
+Departamento (? para ver opciones): RISARALDA
+Municipio (? para ver opciones): Balboa
+Cultivo (? para ver opciones): Caña panelera/azucar
+Número de registros a consultar: 500
+  [i] Solo existen 36 registros (pediste 500).
+
++--------------+-----------+----------------------+------------+----+------------+-------------------+---------------------+
+| Departamento | Municipio |       Cultivo        | Topografía | N  | Mediana pH | Mediana P (mg/kg) | Mediana K (cmol/kg) |
++--------------+-----------+----------------------+------------+----+------------+-------------------+---------------------+
+| RISARALDA    | BALBOA    | Caña panelera/azucar | Plano      | 36 |       6.45 |              6.77 |                0.25 |
++--------------+-----------+----------------------+------------+----+------------+-------------------+---------------------+
+  N/D = sin datos válidos (valores '<límite de detección' o 'ND' no se promedian).
+
+¿Hacer otra consulta? (s/n): n
+¡Hasta pronto!

@@ -1,0 +1,24 @@
+================================================================
+  PROPIEDADES EDÁFICAS - Resultados de laboratorio de suelos
+================================================================
+Cargando y limpiando datos (puede tardar unos segundos)...
+Listo: 46,745 registros cargados.
+
+Departamento (? para ver opciones): risaralda
+Municipio (? para ver opciones): santa rosa de cabal
+Cultivo (? para ver opciones): platano
+Número de registros a consultar: 30
+
++--------------+---------------------+---------+------------------------+----+------------+-------------------+---------------------+
+| Departamento |      Municipio      | Cultivo |       Topografía       | N  | Mediana pH | Mediana P (mg/kg) | Mediana K (cmol/kg) |
++--------------+---------------------+---------+------------------------+----+------------+-------------------+---------------------+
+| RISARALDA    | SANTA ROSA DE CABAL | Plátano | Moderadamente ondulado |  4 |       5.47 |              7.48 |                0.12 |
+| RISARALDA    | SANTA ROSA DE CABAL | Plátano | Ondulado               |  1 |       6.02 |              5.45 |                0.54 |
+| RISARALDA    | SANTA ROSA DE CABAL | Plátano | Pendiente              |  2 |       5.32 |              7.60 |                0.28 |
+| RISARALDA    | SANTA ROSA DE CABAL | Plátano | Pendiente moderada     | 23 |       5.24 |              5.07 |                0.15 |
+| RISARALDA    | SANTA ROSA DE CABAL | Plátano | TODAS                  | 30 |       5.33 |              6.14 |                0.15 |
++--------------+---------------------+---------+------------------------+----+------------+-------------------+---------------------+
+  N/D = sin datos válidos (valores '<límite de detección' o 'ND' no se promedian).
+
+¿Hacer otra consulta? (s/n): n
+¡Hasta pronto!

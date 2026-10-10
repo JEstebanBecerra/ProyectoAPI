@@ -1,0 +1,39 @@
+================================================================
+  PROPIEDADES EDÁFICAS - Resultados de laboratorio de suelos
+================================================================
+Cargando y limpiando datos (puede tardar unos segundos)...
+Listo: 46,745 registros cargados.
+
+Departamento (? para ver opciones): risaralda
+Municipio (? para ver opciones): santa rosa de cabal
+Cultivo (? para ver opciones): pastos
+Número de registros a consultar: 20
+
++--------------+---------------------+---------+------------+----+------------+-------------------+---------------------+
+| Departamento |      Municipio      | Cultivo | Topografía | N  | Mediana pH | Mediana P (mg/kg) | Mediana K (cmol/kg) |
++--------------+---------------------+---------+------------+----+------------+-------------------+---------------------+
+| RISARALDA    | SANTA ROSA DE CABAL | Pastos  | Ondulado   | 13 |       5.62 |              8.28 |                0.46 |
+| RISARALDA    | SANTA ROSA DE CABAL | Pastos  | Pendiente  |  5 |       5.75 |              7.62 |                0.21 |
+| RISARALDA    | SANTA ROSA DE CABAL | Pastos  | Plano      |  2 |       5.54 |              7.74 |                0.41 |
+| RISARALDA    | SANTA ROSA DE CABAL | Pastos  | TODAS      | 20 |       5.62 |              8.07 |                0.31 |
++--------------+---------------------+---------+------------+----+------------+-------------------+---------------------+
+  N/D = sin datos válidos (valores '<límite de detección' o 'ND' no se promedian).
+
+¿Hacer otra consulta? (s/n): s
+
+Departamento (? para ver opciones): risaralda
+Municipio (? para ver opciones): santa rosa
+Cultivo (? para ver opciones): platano
+Número de registros a consultar: 10
+
++--------------+------------+---------+------------+----+------------+-------------------+---------------------+
+| Departamento | Municipio  | Cultivo | Topografía | N  | Mediana pH | Mediana P (mg/kg) | Mediana K (cmol/kg) |
++--------------+------------+---------+------------+----+------------+-------------------+---------------------+
+| RISARALDA    | SANTA ROSA | Plátano | Ondulado   |  1 |       5.78 |             33.77 |                0.12 |
+| RISARALDA    | SANTA ROSA | Plátano | Pendiente  |  9 |       5.28 |              4.96 |                0.17 |
+| RISARALDA    | SANTA ROSA | Plátano | TODAS      | 10 |       5.30 |              5.29 |                0.15 |
++--------------+------------+---------+------------+----+------------+-------------------+---------------------+
+  N/D = sin datos válidos (valores '<límite de detección' o 'ND' no se promedian).
+
+¿Hacer otra consulta? (s/n): n
+¡Hasta pronto!

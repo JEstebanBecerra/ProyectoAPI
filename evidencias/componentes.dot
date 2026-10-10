@@ -1,0 +1,16 @@
+digraph G {
+  rankdir=LR; fontname="Helvetica"; node [fontname="Helvetica", fontsize=12]; edge [fontname="Helvetica", fontsize=10];
+  usuario [label="Usuario\n(consola)", shape=oval, style=filled, fillcolor="#fff3cd"];
+  subgraph cluster_app { label="ProyectoAPI"; style=rounded; color="#555555";
+    main [label="«component»\nmain.py\n(orquestador)", shape=component, style=filled, fillcolor="#d1e7dd"];
+    ui   [label="«component»\nui\n(consola.py)", shape=component, style=filled, fillcolor="#cfe2ff"];
+    api  [label="«component»\napi\n(suelos.py, limpieza.py)", shape=component, style=filled, fillcolor="#f8d7da"];
+  }
+  excel [label="resultado_laboratorio_suelo.xlsx\n(46.745 registros)", shape=note, style=filled, fillcolor="#e2e3e5"];
+  pandas [label="pandas / openpyxl", shape=component, style="filled,dashed", fillcolor="#ffffff"];
+  usuario -> ui [label="entradas / tabla", dir=both];
+  main -> ui [label="usa", style=dashed];
+  main -> api [label="usa", style=dashed];
+  api -> excel [label="lee", style=dashed];
+  api -> pandas [label="depende de", style=dashed];
+}
